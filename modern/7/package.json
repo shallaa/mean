@@ -1,0 +1,37 @@
+{
+  "name": "socialapp",
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\jshint . && .\\node_modules\\.bin\\protractor"
+  },
+  "dependencies": {
+    "express": "~4.12.3",
+    "body-parser": "~1.12.3",
+    "mongoose": "~4.0.1",
+    "gulp": "~3.8.11",
+    "gulp-concat": "~2.5.2",
+    "gulp-uglify": "~1.2.0",
+    "gulp-ng-annotate": "~0.5.2",
+    "gulp-sourcemaps": "~1.5.2",
+    "gulp-stylus": "~2.0.1",
+    "gulp-nodemon": "~2.0.2",
+    "jwt-simple": "~0.3.0",
+    "lodash": "~3.7.0",
+    "bcrypt": "~0.8.2",
+    "ws": "~0.7.1",
+    "morgan": "~1.5.2",
+    "mocha": "~2.2.4"
+  },
+  "devDependencies": {
+    "protractor": "~2.0.0",
+    "mocha": "~2.2.4",
+    "chai": "~2.3.0",
+    "chai-as-promised": "~5.0.0",
+    "jsonwebtoken": "~5.0.0",
+    "blanket": "~1.1.6",
+    "jshint": "~2.7.0",
+    "karma": "~0.12.31",
+    "karma-mocha": "~0.1.10",
+    "karma-chai": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.4"
+  }
+}
